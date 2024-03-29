@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header__one {
+  width: 100%;
+  background-color: #f3f1ec;
+}
+.header__one__items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #929292;
+  gap: 100px;
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  height: 56px;
+}
+.login__register {
+  display: flex;
+  gap: 30px;
+}
+.social__medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.call__us__section :last-child:hover {
+  color: rgb(220, 126, 92);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.call__us__section {
+  display: flex;
+  gap: 10px;
+}
+.navbar__pages ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "PT Serif", serif;
+}
+
+.navbar__pages ul li {
+  display: inline-block;
+  padding: 0 27px;
+  font-size: 14px;
+  color: #808369;
+  font-weight: bold;
+}
+.navbar {
+  width: 100%;
+}
+.navbar__items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 149.79px;
+}
+.about__link {
+  text-decoration: none;
+  color: #808369;
+}
+.navbar__logo img {
+  width: 273px;
+  height: 87px;
+}
+.navbar__pages ul li span:hover {
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar__pages ul li:not(:first-child) {
+  border-left: 1px solid #333;
+}
+.navbar__burger {
+  display: none;
+}
+.hero__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  background-image: url(https://royalevent.themerex.net/wp-content/uploads/2016/08/bg_top_panel_title.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 330.05px;
+}
+.map {
+  width: 100%;
+  height: 573px;
+}
+.contact__way {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  width: 100%;
+  padding-top: 100px;
+  font-family: "PT Serif", serif;
+}
+.contact__way__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: #f3f1ec;
+  width: 370px;
+  height: 265px;
+}
+.contact__way__card i {
+  position: absolute;
+  top: -30px;
+  font-size: 25px;
+  background-color: white;
+  width: 60px;
+  height: 50px;
+  border-radius: 150px;
+  color: gray;
+}
+.contact__way__card i:hover {
+  color: rgb(149, 211, 57);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.feedback__section {
+  width: 100%;
+  height: 900.66px;
+  background-color: #f3f1ec;
+  padding-top: 40px;
+  margin-top: 30px;
+}
+.feedback__section__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form__items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name__email input {
+  text-align: left;
+  width: 369.59px;
+  height: 64.49px;
+  padding-left: 10px;
+  border: none;
+  outline: #605858;
+  font-family: "PT Serif", serif;
+}
+.form__items {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.blog__more__button button {
+  width: 228.86px;
+  height: 60.9px;
+  background-color: #ffb18b;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+.blog__more__button button:hover {
+  background-color: rgb(222, 142, 112);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  font-size: 14px;
+  color: gray;
+}
+.form__main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.message input {
+  text-align: center;
+  width: 744px;
+  height: 225.91px;
+  border: none;
+  outline: #808369;
+  font-family: "PT Serif", serif;
+}
+.welcome__items__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 35px;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: #434343;
+  background-image: url(https://royalevent.themerex.net/wp-content/themes/royal-event/images/title_bg_green.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center top;
+  height: 200px;
+}
+.form__main {
+  width: 744px;
+}
+@media only screen and (max-width: 1372px) {
+
+}
+@media only screen and (max-width: 1207px) {
+}
+@media only screen and (max-width: 1188px) {
+}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 956px) {
+  .header__one{
+    display: none;
+}
+  .form__main{
+    width: 700px;
+  }
+  .message input{
+    width: 369.59px;
+  }
+  .navbar__pages{
+    display: none;
+}
+.navbar__burger{
+    display: block;
+}
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 723px) {
+  .form__main{
+    width: 369px;
+  }
+}
+@media only screen and (max-width: 630px) {
+}
+
+@media only screen and (max-width: 470px) {
+  .navbar__logo img{
+    width: 150px;
+    height: 50px;
+   }  
+}
+@media only screen and (max-width: 395px) {
+}
+@media only screen and (max-width: 353px) {
+  .form__items{
+    width: 300px;
+  }
+  .form__checkbox input span{
+    width: 100px;
+  }
+  .name__email input{
+    width: 300px;
+  }
+  .message input{
+    width: 300px;
+  }
+  .form__main{
+    width: 300px;
+  }
+}
