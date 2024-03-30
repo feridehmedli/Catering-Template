@@ -173,7 +173,9 @@
   width: 100%;
   height: 100%;
 }
-
+.dropdown-menu {
+  display: none;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -349,6 +351,10 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
+  text-decoration: none;
+}
+.menu__cards a{
+  text-decoration: none;
 }
 .menu__card {
   display: flex;
@@ -651,6 +657,10 @@
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+.pages ul li a{
+  text-decoration: none;
+  color: #808369;
 }
 .footer__main ul li{
   display: flex;

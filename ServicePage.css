@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header__one {
+  width: 100%;
+  background-color: #f3f1ec;
+}
+.header__one__items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #929292;
+  gap: 100px;
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  height: 56px;
+}
+.login__register {
+  display: flex;
+  gap: 30px;
+}
+.social__medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.call__us__section :last-child:hover {
+  color: rgb(220, 126, 92);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.call__us__section {
+  display: flex;
+  gap: 10px;
+}
+.navbar__pages ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "PT Serif", serif;
+}
+
+.navbar__pages ul li {
+  display: inline-block;
+  padding: 0 27px;
+  font-size: 14px;
+  color: #808369;
+  font-weight: bold;
+}
+.navbar {
+  width: 100%;
+}
+.navbar__items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 149.79px;
+}
+.about__link {
+  text-decoration: none;
+  color: #808369;
+}
+.navbar__logo img {
+  width: 273px;
+  height: 87px;
+}
+.navbar__pages ul li span:hover {
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar__pages ul li:not(:first-child) {
+  border-left: 1px solid #333;
+}
+.navbar__burger {
+  display: none;
+}
+.hero__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  background-image: url(https://royalevent.themerex.net/wp-content/uploads/2016/08/bg_top_panel_title.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 330.05px;
+}
+.welcome__items__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 35px;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: #434343;
+  background-image: url(https://royalevent.themerex.net/wp-content/themes/royal-event/images/title_bg_green.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center top;
+  height: 200px;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+.swiper__wrapper {
+  background-color: transparent;
+}
+.clients__about__us {
+  padding-top: 100px;
+  margin-top: 100px;
+  width: 100%;
+  height: 700px;
+  background-image: url(https://royalevent.themerex.net/wp-content/uploads/2016/08/bg_testimonials.jpg?id=157);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  background-color: transparent;
+}
+.swiper__slide__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.swiper__slide__items img{
+    border-radius: 50px;
+}
+.swiper-slide span {
+  font-size: 21px;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 338.06px;
+    color: #808369;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .footer__logo img {
+    width: 273px;
+    height: 87px;
+  }
+  .footer__start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 300px;
+  }
+  
+  .pages ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .footer__main ul li {
+    display: flex;
+    list-style: none;
+    font-family: "PT Serif", serif;
+  }
+  .footer__main ul li:hover {
+    color: #ffb18b;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .pages {
+    padding-right: 35px;
+    padding-top: 5px;
+  }
+  .footer__main__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+    padding-right: 30px;
+  }
+  .contact__number__email {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__number__email span {
+    font-family: "PT Serif", serif;
+  }
+  .contact__info__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "PT Serif", serif;
+  }
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  .footer__end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .footer__social__media {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+  }
+  .contact__info {
+    text-align: left;
+  }
+  .footer__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  @media only screen and (max-width: 1372px) {
+}
+@media only screen and (max-width: 1207px) {
+}
+@media only screen and (max-width: 1188px) {
+  .footer__start {
+    gap: 80px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 956px) {
+  .header__one {
+    display: none;
+  }
+  .navbar__pages {
+    display: none;
+  }
+  .navbar__burger {
+    display: block;
+  }
+  .footer__start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+  }
+  .footer__items {
+    padding-top: 400px;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 872px) {
+    .swiper{
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding-top: 300px;
+  }
+  .footer__start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    gap: 7px;
+  }
+  .footer__end {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer__items {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 723px) {
+
+}
+@media only screen and (max-width: 630px) {
+    .swiper{
+        width: 400px;
+    }
+    .description{
+        font-size: 10px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+  .navbar__logo img {
+    width: 150px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 395px) {
+    .swiper{
+        width: 300px;
+    }
+    .description{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 353px) {
+  
+}

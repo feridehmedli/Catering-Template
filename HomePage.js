@@ -34,3 +34,18 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const navbarIcon = document.querySelector(".navbar__icon");
+  const dropdownMenu = document.querySelector(".navbar__items ul");
+
+  navbarIcon.addEventListener("click", function () {
+    dropdownMenu.classList.styl("show");
+  });
+  window.addEventListener("click", function (event) {
+    if (!event.target.closest(".navbar__items")) {
+      dropdownMenu.classList.remove("show");
+    }
+  });
+});
+
+
